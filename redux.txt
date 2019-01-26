@@ -1,0 +1,32 @@
+1. Redux
+    - Redux menawarkan solusi global state. 
+    - State dari setiap komponen di pindahkan ke global state yang disebut store.
+    - Store ini akan terhubung dengan komponen.
+    - Setiap Komponen dapat mengakses state dalam store 
+    - Redux menghandle komunikasi state antara komponent dan perubahan UI.
+
+2. State 
+    - Dalam programing State di ibaratkan seperti memori dari aplikasi. 
+    - Memori ini digunakan untuk menyimpan status dari aktifitas atau eksekusi dari aplikasi
+    - State dalam react seperti database disisi frontend
+
+3. Actions
+    - Muatan informasi yang mengirim data dari aplikasi Anda (Pengiriman)
+    - Action adalah objek sederhana yang wajib punya properti bernama type & bertipe string. 
+    - Action boleh berisi data lain yang mungkin diperlukan untuk update state.
+
+4. Reducer
+    - Reducer adalah sebuah function yang bertugas memproses Action dan membuat State baru.
+    - Reducer punya dua parameter state & action.
+
+5. Store 
+    - Menghubungkan actions & reducers
+    - Menyimpan state
+    - Menyediakan API untuk mengakses State
+    - Menyediakan API untuk update State
+    - 1 Apps hanya boleh punya 1 store
+
+6. Provider 
+    - <Provider /> dirender pada top level komponen
+    - <Provider /> membuat store Redux tersedia untuk setiap komponen yang telah dibungkus dengan fungsi connect ().
+    
