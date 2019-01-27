@@ -1,7 +1,7 @@
 1. Redux
     - Redux menawarkan solusi global state. 
-    - State dari setiap komponen di pindahkan ke global state yang disebut store.
-    - Store ini akan terhubung dengan komponen.
+    - State dari setiap komponen di simpan ke global state yang disebut store.
+    - Store ini akan terhubung dengan setiap komponen.
     - Setiap Komponen dapat mengakses state dalam store 
     - Redux menghandle komunikasi state antara komponent dan perubahan UI.
 
@@ -29,4 +29,5 @@
 6. Provider 
     - <Provider /> dirender pada top level komponen
     - <Provider /> membuat store Redux tersedia untuk setiap komponen yang telah dibungkus dengan fungsi connect ().
-    
+
+7. Github Token: 49bcc685dc40ad5dd49ae20b6d584b6209423e0a
